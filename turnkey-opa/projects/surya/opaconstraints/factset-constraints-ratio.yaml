@@ -1,0 +1,7 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: OPAConstraint
+metadata:
+  name: factset-constraints-ratio
+  project: surya
+spec:
+  templateName: factset-constraint-template-ratio
