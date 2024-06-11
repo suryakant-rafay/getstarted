@@ -4,4 +4,12 @@ metadata:
   name: factset-constraints
   project: surya
 spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/factset-constraints/rafay-gatekeeper-allowedrepos-constraint.yaml
+    options: {}
+    type: Yaml
+  published: true
   templateName: factset-constraint-template
+  version: v1
