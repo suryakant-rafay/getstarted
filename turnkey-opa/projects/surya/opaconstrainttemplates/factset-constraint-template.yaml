@@ -7,6 +7,8 @@ metadata:
   project: surya
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/factset-constraint-template/rafay-gatekeeper-allowedrepos-constraint-template.yaml
     options: {}
     type: Yaml
