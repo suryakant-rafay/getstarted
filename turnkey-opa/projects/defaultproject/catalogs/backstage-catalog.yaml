@@ -1,0 +1,9 @@
+apiVersion: apps.k8smgmt.io/v3
+kind: Catalog
+metadata:
+  name: backstage-catalog
+  project: defaultproject
+spec:
+  autoSync: true
+  repository: backstage-helm-repo
+  type: HelmRepository

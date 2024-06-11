@@ -1,0 +1,8 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: InfraProvisioner
+metadata:
+  name: ss1
+  project: defaultproject
+spec:
+  config: null
+  type: Terraform

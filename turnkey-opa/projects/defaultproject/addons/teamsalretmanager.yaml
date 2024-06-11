@@ -1,0 +1,19 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: teamsalretmanager
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      configmap:
+        name: file://teamsalretmanager/alertmanager-configMap.yaml
+      configuration:
+        name: file://teamsalretmanager/alertmanager-configuration.yaml
+      secret:
+        name: file://teamsalretmanager/alertmanager-secret.yaml
+      statefulset:
+        name: file://teamsalretmanager/alertmanager-statefulSet.yaml
+    type: AlertManager
+  sharing: {}
+  version: V2

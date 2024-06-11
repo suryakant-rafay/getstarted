@@ -1,0 +1,14 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: pgadmin-service
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/pgadmin-service/pgadmin-service.yaml
+    type: Yaml
+  namespace: developer-namespace
+  sharing: {}
+  version: v1

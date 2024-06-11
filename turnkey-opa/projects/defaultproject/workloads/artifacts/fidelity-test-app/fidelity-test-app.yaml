@@ -1,0 +1,146 @@
+apiVersion: v1
+data:
+  tls.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURjekNDQWxzQ0FnUG9NQTBHQ1NxR1NJYjNEUUVCQ3dVQU1INHhDekFKQmdOVkJBWVRBbFZUTVJNd0VRWUQKVlFRSURBcERZV3hwWm05eWJtbGhNUkl3RUFZRFZRUUhEQWxUZFc1dWVYWmhiR1V4RGpBTUJnTlZCQW9NQlZKaApabUY1TVE0d0RBWURWUVFMREFWU1lXWmhlVEVtTUNRR0ExVUVBd3dkWm1sa1pXeHBkSGt0ZEdWemRDMWhjSEF3Ck1pNXlZV1poZVM1dVpYUXdJQmNOTWpRd05UQXpNVEV3T0RBeldoZ1BNakExTkRBME1qWXhNVEE0TUROYU1INHgKQ3pBSkJnTlZCQVlUQWxWVE1STXdFUVlEVlFRSURBcERZV3hwWm05eWJtbGhNUkl3RUFZRFZRUUhEQWxUZFc1dQplWFpoYkdVeERqQU1CZ05WQkFvTUJWSmhabUY1TVE0d0RBWURWUVFMREFWU1lXWmhlVEVtTUNRR0ExVUVBd3dkClptbGtaV3hwZEhrdGRHVnpkQzFoY0hBd01pNXlZV1poZVM1dVpYUXdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUEKQTRJQkR3QXdnZ0VLQW9JQkFRQ3lyYXRMWUJNZDFYNFROMGFJakNnSWYzR1NlZ0tlZHBvb3BJb0xVNVNzQ3FPVwoxV1F5cmIxYklxcGFvZng1aHBiUXBuZDN1ZXBQeFNSWmgvMUZrMlVmTjFOYVA5QWVNUVFvVHN4WkZyYXN5RjlmCmlDRkNBSzVqbkZhcnBIODRlczNxc0RiK3MvWURBUjNTVUdyNURuNGFDd1RPTTRrVGhLN3YzUUVvQ2xoTlhKOFAKYmpEMDlYdUF2MzFhMGxaS2dqRzliS3NvdTlyUXliTUZyeXBPWUVkK3RVWHhPTWZWZDJWbzRrYzd2NjI5U2FNOApTVWRZM1RrV0pkc2N3c2VZRVZoMFN3c1lkVzc4Wm9NQzR1Y1U0ZXhlYmJqUWpvZk93bEdXVTFKN0tJQzlNQXl3Ci9JSHUxWEtwUkpmL1BiN0p2QWNDTTdWRnpKY1cxdUZWcndxeFFscHpBZ01CQUFFd0RRWUpLb1pJaHZjTkFRRUwKQlFBRGdnRUJBSUVOcEl6UmR5M2Yya21OMHd1aEg1MWlHZHMydExsQXkxR01QMitFVTBKVldBMHRlRDRsNWJNVApDdHJKNlJXQ01VQk1temhmQzhtdmhCT00xQ3phL1ZHUm5rK3htWUJISWpFKzgwMDhZRW1PSkRIdkdvV3V6S0ZUCm5IVlRPNWxVSW01RjVhdEtXNG8xU0grSENJQXptMU1oTTh4UGhsOGhreDlTeEgxdkk0NDlSYnFWMFlsOEpVZWwKNGtXYTkyaXBQVm9KTTBHZ2licENWSDEzMDYwM3BjTWlRMndlMjBNWEN4YkZYanRscTJNenQvTUY0ZWYwRDJZawpuNGpqc2V1K2R1Rnk0Sit5ZmtrWktZczlrellBdE5KSFFQSElOZzYwUEg4RWJOTC9mcHFnVjNNSjRsQUZxVzd5CndtY05MQXZSTzUrSEJURFM5WXlYejE3a0tPaHM4ZlE9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+  tls.key: c2VjcmV0c3RvcmU6cmttczp6a2t6WC9oc1lKbGE5YlpVVEF2ZFI3SXJ5c1NCb1E0VGxLajBHcm5EVFhCUXFqQkd5WWFsTUlBSUQ4SGhEU3pUd0VzbGluTWJhWkIvYTU3YmxRY0NmckV1YWh0c0xIQnBhaHN4Tlc1amhNUFFXYnFka2lZZlV1TU0wdlBySGpMV2NxRElUZHlTMDdmZU9Yc1JuaGlKMFNMUWZibGhPSmJkbDdsblFyWkxDVlZXK2NtYU5OeGFhcEpRelNiRjhUUG5zRy9WSVdHRTAzb1BJMFQ0TUlwOU0yZ2ZSU3RPL1lyL1dUZ1l0L0RkQ2J6TGU3OHg2UmtVc3gwS0l6ZndWb0ErWjVQZlpubGtiOFdtY1J3UXVEa205djFLMWVyTVp3MTdwVzRxL2ptdjUzRVVwak9zNkZ4b3o1VG1HU1Z5OFB4WlM5ajNpaWNWVGp2MWxYZUtSZENQbk8wQVFDKzJLRmNKU0RPQjlZTzh1d2QwTzZsbXM1c3VhVGhUVlFjRW5XcjlSMFRpcDVQWFlwMnh2eURyT1dDcExyMEU2MWZtNnQ1eUdBaUxocWxScE80NVVWVEpMQ2V1elowcXlWYkNoV2Y0SUlxY0gzM3J6Um1UQmRoeWs2TWpRV21qeldSR1dvU2xvdlJHdVE1QXdPU0xMaGdqcERuREpjRmJQZGZnME14SzhvbEJKMFdCLytXK1VDTjlnamdqNk9nOEpyRTl3TElMRXVRS2VCc0lmQ2s2dGh5Q0dyeWVxcldQY2lMT0s5Qy9LM0tnWFZ3Rll6Q0J4WUhPcTM4TnNvZDNDdVYzYXBaaUkwUElZN0UrSEVSZDd0M2lNRzdlK3BhalJ4Q1k5YW9mOTBvQVdvV2dOYWc4ZlJlc0I3OENJMU02c3oxUkxPWE1hSk02WFZ4b3VUcGJubzh6NGRaUDIrWHpqeXlSUzJPUk9zSVlGVEpQTDdwaFJqdURzNGFVMjM4c1gzWUhVOWtHc0NmV0VsUXJLVEh5dndINkdzYm9tZE5mQmFoMFBwS09FZnF3Z0FLeXB3RUw3Q21IbzUraFdDWDU0SFRuTGFSZ0xub1dPWXR4dzJaME1sVEcyZ01pMFNwUjNra25FMUxDZG9TMFV1SUdQdld1MHpjeXNyUzVRYlpNeGpJNEhXbmdyTWJFTGoyNy9mekc4cnBHK0szY3c5eWJieVJqVE11TCtwMStFUDV2c1BiQTBXWkNOLzhFVm9PNVBjYVA2N0sweWptN1ZYWXNLNm1aUzd4UTQySzQwaDdFbjdZZjlXeDZGZFBycDhvS0hwbmJiaXVmcm9HMmF6Vm9QRVFIeWdBUlBmQkE1NGF1dXhiZVFuK2VVcTRnVHFhZzNvZjF6Q0FjT0dlVE9BVG9vSExJY0NmVXMzOGVKSHdDUHI4Ly9JUnV2Q1I2L1F6NE5FY2xoYXRGWGM1N0pyUzRrMnRNaXZMVUhLYjZaY05FSW8rOFNGM1BJUlFoVHArdmR6c0V0eWx6VVhlNldyNEwwdWIxd2o1bHVaeEpnUUNWTXpWS1BKVzBOL29Hd3dnL08yRG91ekgzc1g0TDUrRU1WS3RKRHhMRGRxNjdtcGFGeXhUeFVRL1JDZng0d3Ewb3ZTZXhhcmtOeXRueDBWTWVaRXg0UnNPbkxVcS9iczVjK20rOWN4em9acmFpSnoybjJ0RmtGTmwvU3JOKzh3QnhOakNzckZMLzcveGJRamhSY003bDNhaDNYNFFRM1czcURhZU5tdFJmOWxPK0hudFZsL0s0ZExLTFBBc215ZkR6cUFtNUlwZDVsajZwZ0NmVXk0TU1Mc09wbXRHblJubVd0SmdycXVVVDNtazNGbVhOZVZGcC9XZ3VwaTFhT3lXNldXZVVJc0JnanovNzNjSnEwN1VFbWFYM0c4dTYyRlVYT1YraWxDQXEzYWZqaDYxcHBVZlRkMGhQWVY0dGFyQVVpc3ZuOFhmR3BlVm5PMjk0V1RLMUR6RGRPMUZKKzNwVVVkQmE4T3FYQ1ZiYVFhOE5tb3lMVjVTdUdJUHIySkY2SHd2M3JjV1k1R3QvblRvWDFTRk1FMUxiY1dpVWNVaU1RNWhVMFB3ck8wWk8reVJHeTZDWTNzZkwvOWgxbjdPenQ3Zm01enVSRlEzZ000Q0RpRmdHaUEwcGNLR1pKSHRSZVRzaUcyZXV5N3JzaHptK1RKZjVWQWsrZ3g4R2pSN1NHbHFRZTdDblUzM3E0NjM5eURIbUFvcVpjV2w4ajFlZkRGdmFhQ1ZLQlpDR0FCYWJ3UWlSVko5OXM3ZXJ3di9IWU9Zc29tRktDd3NXM2Izd01YdXlIU0Yvc1dlMHBiZTU0VkU5K1VkK2JsNG9DM3VENXFodzA1anRjc2U3d05XR1NVVC9CRWRyK0pseVFxUDlaUmtxdjRWN1lITGNyQ3dOYTJ3ZzZZVXNuaUtESEVaWmxZbUFabGQ1WG5sYlM2Z2J0NHdiMWFaclRmNkFKdks2djluQWN5aEt3Q05YUzhpd2drL2thWU1hTEpWWUZiVHlCNVpsZXdpZzAydXNmd3lLclNLaC9yQ0dHWFRKbDREWlkxd1B6ZXZDWk1rWFRFWjd0WVFTaHpuOFdRS3oxZmxCL1UzWERoaGhFYTNxZUFBYm84VTBDbWdUZGxCRi95Qk5qdmVEekhxWkltbElEaEN3UHJ4N1dNNkcrTWQzbWtxUEY1djdHWk9GWGJMU1Y2K0hwTGJtSGFsWFI0cFIyTlBKMlBoaE1KV0lybVBlazRtYWtlMUxvTzRxSEJmVHJNMWd1cHFaenFXejFmMUpxV002QjdQckZ5U2g5YXhmRkh4VG1HOG1RQUtmUit4Ym9hWTNHVWVDaEJLOENIMis0K1RWV2NYZHNoY2lTcm94aVNMWGhYWXFYWEIwcTdkbk96TUhDL1M2WlYzTUFpYlB0d2NYaEgxWGttZS9UdFNSaHR2UFJmZmRNQ2hYWTRQWjJab2JXb3FFL2IwdllUSnBpMngxYTZpRU1jNlJpckl2cEZ2eFZGMnZpcitYWHhCOVlZQnRUYnRSTXhHOFNjWURqYWlDaFVxaVpmUTA=
+kind: Secret
+metadata:
+  annotations:
+    rafay.dev/secretstore: rkms-secrets
+  labels:
+    rep-organization: 7kr5p9m
+    rep-partner: rx28oml
+    rep-version: gdk6g21
+    rep-workload: knoq460
+  name: knoq460-fidelity-t-3525725850-ingress
+  namespace: fidelity
+type: kubernetes.io/tls
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    rep-container: knoq460-fidelity-test-app02
+    rep-organization: 7kr5p9m
+    rep-partner: rx28oml
+    rep-version: gdk6g21
+    rep-workload: knoq460
+  name: fidelity-test-app02
+  namespace: fidelity
+spec:
+  ports:
+  - name: port-9000-tcp
+    port: 9000
+    protocol: TCP
+    targetPort: 9000
+  selector:
+    rep-app: fidelity-test-app02
+  type: ClusterIP
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    rafay.dev/registry-2w0968m: system-default-registry
+  labels:
+    rep-app: fidelity-test-app02
+    rep-organization: 7kr5p9m
+    rep-partner: rx28oml
+    rep-workload: knoq460
+  name: fidelity-test-app02
+  namespace: fidelity
+spec:
+  minReadySeconds: 10
+  progressDeadlineSeconds: 300
+  selector:
+    matchLabels:
+      rep-app: fidelity-test-app02
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations: {}
+      labels:
+        rep-app: fidelity-test-app02
+        rep-organization: 7kr5p9m
+        rep-partner: rx28oml
+        rep-workload: knoq460
+    spec:
+      containers:
+      - args: []
+        command: []
+        env: []
+        envFrom: []
+        image: suryakant86/fidelity-test-app02:v1
+        imagePullPolicy: IfNotPresent
+        name: fidelity-test-app02
+        ports:
+        - containerPort: 9000
+          name: port-9000-tcp
+          protocol: TCP
+        resources:
+          limits:
+            cpu: 250m
+            memory: 1024Mi
+          requests:
+            cpu: 237m
+            memory: 972Mi
+      dnsPolicy: ClusterFirstWithHostNet
+      restartPolicy: Always
+      tolerations: []
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+    nginx.ingress.kubernetes.io/configuration-snippet: set $workload_name "fidelity-test-app";set
+      $workloadId "knoq460";set $orgId "7kr5p9m";set $partnerId "rx28oml";
+    rafay.dev/cname: fidelity-test-app02-rafay-net.run.rafay-edge.net
+    rafay.dev/kubeVersionConstraint: '>=1.19.0'
+  name: fidelity-test-app02
+  namespace: fidelity
+spec:
+  rules:
+  - host: fidelity-test-app02.rafay.net
+    http:
+      paths:
+      - backend:
+          service:
+            name: fidelity-test-app02
+            port:
+              number: 9000
+        path: /
+        pathType: ImplementationSpecific
+  tls:
+  - hosts:
+    - fidelity-test-app02.rafay.net
+    secretName: knoq460-fidelity-t-3525725850-ingress
+
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+    nginx.ingress.kubernetes.io/configuration-snippet: set $workload_name "fidelity-test-app";set
+      $workloadId "knoq460";set $orgId "7kr5p9m";set $partnerId "rx28oml";
+    rafay.dev/cname: fidelity-test-app02-rafay-net.run.rafay-edge.net
+    rafay.dev/kubeVersionConstraint: <1.19.0
+  name: fidelity-test-app02
+  namespace: fidelity
+spec:
+  rules:
+  - host: fidelity-test-app02.rafay.net
+    http:
+      paths:
+      - backend:
+          serviceName: fidelity-test-app02
+          servicePort: 9000
+        path: /
+  tls:
+  - hosts:
+    - fidelity-test-app02.rafay.net
+    secretName: knoq460-fidelity-t-3525725850-ingress

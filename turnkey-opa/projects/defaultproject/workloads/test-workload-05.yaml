@@ -1,0 +1,15 @@
+apiVersion: apps.k8smgmt.io/v3
+kind: Workload
+metadata:
+  name: test-workload-05
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/test-workload-05/test-workload-05.yaml
+    type: Yaml
+  namespace: fidelity
+  placement:
+    selector: rafay.dev/clusterName=surya-test-cluster-04
+  version: test-workload-05-v3-202405270844060000

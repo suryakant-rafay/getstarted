@@ -1,0 +1,14 @@
+apiVersion: apps.k8smgmt.io/v3
+kind: Workload
+metadata:
+  name: fidelity-test-app
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/fidelity-test-app/fidelity-test-app.yaml
+    type: Yaml
+  namespace: fidelity
+  placement:
+    selector: rafay.dev/clusterName=rafay-test-cluster01

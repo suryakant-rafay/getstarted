@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fidelity-test-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fidelity-test-app
+  template:
+    metadata:
+      labels:
+        app: fidelity-test-app
+    spec:
+      containers:
+      - name: fidelity-test-app
+        image: suryakant86/fidelity-test-app05:v1
+        ports:
+        - containerPort: 8080 
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fidelity-test-app-service
+spec:
+  selector:
+    app: fidelity-test-app  
+  ports:
+    - protocol: TCP
+      port: 8081            
+      targetPort: 8080  

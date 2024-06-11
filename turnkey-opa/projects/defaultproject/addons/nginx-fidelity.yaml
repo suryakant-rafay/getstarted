@@ -1,0 +1,14 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: nginx-fidelity
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/nginx-fidelity/nginx.yaml
+    type: Yaml
+  namespace: fidelity
+  sharing: {}
+  version: v1

@@ -1,0 +1,19 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: slack-addon
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      configmap:
+        name: file://slack-addon/alertmanager-configMap.yaml
+      configuration:
+        name: file://slack-addon/alertmanager-configuration.yaml
+      secret:
+        name: file://slack-addon/alertmanager-secret.yaml
+      statefulset:
+        name: file://slack-addon/alertmanager-statefulSet.yaml
+    type: AlertManager
+  sharing: {}
+  version: v1

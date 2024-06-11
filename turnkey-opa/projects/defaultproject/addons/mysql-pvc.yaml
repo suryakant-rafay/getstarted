@@ -1,0 +1,14 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: mysql-pvc
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/mysql-pvc/mysql-pvc.yaml
+    type: Yaml
+  namespace: default
+  sharing: {}
+  version: v1

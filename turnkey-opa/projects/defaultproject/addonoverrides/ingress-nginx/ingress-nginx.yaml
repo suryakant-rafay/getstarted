@@ -1,0 +1,7 @@
+controller:
+  service:
+    annotations:
+      #For AKS
+      service.beta.kubernetes.io/azure-load-balancer-internal: "false"
+      #FOR EKS
+      #service.beta.kubernetes.io/aws-load-balancer-type: "nlb"

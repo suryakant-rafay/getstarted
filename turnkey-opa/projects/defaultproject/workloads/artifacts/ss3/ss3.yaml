@@ -1,0 +1,146 @@
+apiVersion: v1
+data:
+  tls.crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURYekNDQWtjQ0FnUG9NQTBHQ1NxR1NJYjNEUUVCQ3dVQU1IUXhDekFKQmdOVkJBWVRBbFZUTVJNd0VRWUQKVlFRSURBcERZV3hwWm05eWJtbGhNUkl3RUFZRFZRUUhEQWxUZFc1dWVYWmhiR1V4RGpBTUJnTlZCQW9NQlZKaApabUY1TVE0d0RBWURWUVFMREFWU1lXWmhlVEVjTUJvR0ExVUVBd3dUWm1sa1pXeHBkSGt0ZEdWemRDMHpMbU52CmJUQWdGdzB5TkRBMU1EY3hNek00TlRoYUdBOHlNRFUwTURRek1ERXpNemcxT0Zvd2RERUxNQWtHQTFVRUJoTUMKVlZNeEV6QVJCZ05WQkFnTUNrTmhiR2xtYjNKdWFXRXhFakFRQmdOVkJBY01DVk4xYm01NWRtRnNaVEVPTUF3RwpBMVVFQ2d3RlVtRm1ZWGt4RGpBTUJnTlZCQXNNQlZKaFptRjVNUnd3R2dZRFZRUUREQk5tYVdSbGJHbDBlUzEwClpYTjBMVE11WTI5dE1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBMGRlcGVTNFUKVG5scCtwd20xa3I2WTFmbWY5bjhQK0t2aURia3J6YmZDN3pSeE1zOGp3b0I4SDlsWnVvdXBrWW95YXJFU1BHNgpMTGx0OUN0YUZxVkJNSFZpcjRrQmVHbnE1VVJJL0VwdFVoTzh6VWZaZXdPc01lZlhqWUt6ZjVmZmZwUlFhcEx0CnFHZkVGMXRKRVFlQnNRSURRbzZMcm9aNDIrQXJmS045KzNwWTlUcUQrd2xhd1pZby94aElzbmRCeUx2bU90cnAKVjVFb2QxUFAzTGljaXdDYUFVanIzTEk0V2d3UVdMT0hzOE92SVg5dUV2TlNVY1FQN2pEcHRINXlhbk1MbTNFNwpSSDBHNlNPZ3Q0QXVneW05clo5ckJNdzFrZy9zWElwRGpYTTlFU2FVMzdMVHltdm1mWTJyWHFrdkliZnh6RkFwClNpVHVPd29KUWp5Rlh3SURBUUFCTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFDanJlZnM5dEJobHR3bXAvOTMKZTR6WXFjWXU4UmpLSnhhVllqL3p0bjBKYnZXTGlPOTBvUmY2OUpiRDUvZGtYZ3B0L25TZm9JNFF0cHlITTVQRQpnWVZhTUpVNEE1bmNSQVdndHY0Znd3V1BSTmR3c3lSZVR3ZFQ1NEtLbHQ0ZXNwd2tQMWRPMW1WWjA1TDYxZHhuCmNxcHFHTlBqWStEMy9scjExbzJBTC9xNGQ1dVYxOW1hVERFSEd3Qk5YUWVwVEdpLy90K1I3ZHBpd1BRR0hpOWcKeEVkRXpvYW5KamMxbzNIcHNmQm5mQjZoL3QrSHJMSWl1cmFGMXpJaHZCUnJEMzBxWTEvMTVXMmpraFNDMEJEMApzYlo1ZDVKRkJ0Rm5sVDVaUndnR3l3TWVDbTlsQ2xSVEtOMnUvdVRYSjBBKyttb1A2cG0xK3VSd3lNaGN3Y0twCkl1aFQKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+  tls.key: c2VjcmV0c3RvcmU6cmttczpvZDZpbStjbk5aQUswWDg0ZWRSVE0xMWQxbnRKMmhXaWUyRnluZTlvbmZmdGhoOEZWREoxUXlTN3h4ZHo2aFpYNjhRMmU0bk80NWNQakxTSTNsem03V0lZOG9zODFaQW5vQmVhcXVSc21KOEE5M1JqZG1ZK1pxRnhMUzBRNi9yU01UTnRHdmJTUEJTVGhCSUIrekxRcUlEYjZrME00K0Fza2kwdUhUSFBSVm96YklvUmNKaFVCUEJlTDFBTjdOWUp3L1hrTW9uS1BMbFUzdTRrbWhBYytBdGdqOTVtU2lpYTBtVWRPZ0RNbUQ1ZDkvbmVid1VnWUVGN0Jha2l5ektUaGVuWlRzYk5HMGpaNWw5MHdqcStpbU1VWnZSQXZZZ3VJMVlYSUIrWmsvNHRCemphc0xwWnc5TW9KcDhnbDI1eVRnUlhZTlp0alpiQ0cxVzRnUHJIZHh2YlNqMm5FWU5KNzAyOEh5bVVwK0FaeWVSSEtpbGlxRnRPSkZCSnFqNHpBQ1lCV1o2R1pmMU8rb0FyM2lpNGlwZllmSVBGTFZnSXZBVHpwZ2lBQWxUMjEwU3lIVWlHek1hblJBekg0a0V1SDBGYVpKRkJYdEZxaFU5d3NzTmdOODIrSys5aElGZEJ2UURXVEFJNWZyUm5mc05KWkZTTlZZUEl4MGkrb2EzUG02OGNYS0p4dm51V1BLZ29UOG51cUdvSG8wWTJQV2k3cGRlRDJLR09QTVI4VVordVdWeUF3Q29qYndQL05KaGVhcXFFTVB3b3QydTlLZnNwVlE4WnB6NGk0SlczcEhXd1dLZlNqZjZEK21vR0ZpSk9WeFBlYUdJTUt5VkhlMVVhaDVWd2xhVHR2N0tkblJzSnRPL3I3U3hBZW5Gb296TUM0WVY5a2I0emN4MmRSOFNFMVl4a1hRMEJFazdTNTlyNnp1YlBxNjNndjY0MS9tYWRXWGZ5NTh4cDIrelhqb3J1bzhsejFibHpwWVFkbDlndTNHQkpvTWtvMk1pY2hlNEJwc24vS1hHY1pHeENFdExUa2IrZHRxTVFsaFBQNHdvWXNqVXNtUi9TcHZTYTRQMy9YdWRDNGdzS2swNVVIdVFMSHdyb3ZjcHpEaGNLbE41VDZydXRiWitZS0FLTTV6TXJxM281TlJLTFpoVmZwVWVoTk5mdldURWFTUlJ6eXdVNG15YjBEQmJ1R01FZ2FDWlducHlXNEJ5VE9HZk9nZzN1aklDODNnYTdlUjJLRmxHOEU0SzcrVnpDWk0rdUNHd2FWK2FXeEdzMXR3TTF2dUZJdEtFV09abE1NZ0gvU0lRSjEwVUJtQ2FuVEdzK2ptMkpHY3lFV0FMVHkzbGZxaGZRdWlrY21BTDhuYXlITFJEZXBTM0paUjI4bXc1VGZ1QWF5SXVRRUdzc2RiY3NTSUhZWEFSQi96UFhSWUVSakVHRE56UkRuTXVFTUs4ZlZkU25xNGU0dEtEYnk0VkhhOXZSV1M2bzZnQ3V2b05RVWdrYmYwOVF6RkdjOUJwUnY4UnFDTGhlWnNKcGdCUXo1ZUpYanRTN2EwRGV0VDliTFdGUnZwRjJWYi9OUkZwdzlzUWJkYS9McjJqbGZHQlZWRGpBbGRmUmh6SFB2RlRGV0JoZHNqZEZONGRpaFI1YVhqd3FnV2pHb253b1ZhSWIvamFlR3M0OVZQUmpYU3hLQjhaZDhjTVpWVExXU3p5MUM4N1VCdG1sNG1TRng2enJXSEE5RGNLdktzUTRoU2h0UnpwcGduWXZrRzRGTG5TUFBSZnU1bTNINEFVOW0wdmFCQjFwcTBEM05iRTEreWFvT1JxYzlTNjVTSlp5cHFmZlUwdEo0U0RzLzIvaUpFaHJHcEEza3RnT0MySHp6YUU1ZmRCYjRWTmNYaFJRM1l4bTE4QS9tV1AraXphOVU0UFFtSmIrMEs0TGo3VUpVZGhCQnRXNkR6b0hJdjhtdmFDemcxQURpOUh2aW12WGt6MGt0dGpyZ3ZSampVakt4UFhkWXJSYlMvUEw5MWhqSUlKcmU4YnM5VnVCdUpROUF1akZ1QWtJcU9wb2R5VDI1T1FwL0h2dXByN1JFcVZUMmpnLzVzZExrQzIyL1dneFNaZ00vWU5zUVVzZTZYZGNrdDg0KzVoOVVkbjRGVTBHZVBPc1EzRU1BT29GRDR6UGNSL0ZzQ2o2eXh5TE9BWmQ4dDVhTWZDWnZXRVloS01BWGdaZ1E2cmwxb296amhJUWJrdTQwbDR3TXZtWlFLM05UallwTU5kcHVsbGZXTGRrcGcwZXIwME55N3JVY21aYU1nUm5Dc3dRWEErY1NBNTRkM1hrT21rcWdWSTNHUE9kdTVPdGxsbXpTWHJUT1pNY3RmeGxJNzFCQ3ZJK21BVmhuLzlreW5mTE05TytGQlVMYllDaUpHcTdrMFk1cml6RHdzSDJlakIwRTI1OGN6OUJacFpieitQNmdxMC9RMXhwa294bGJNdVRLN2poYWkzUm5nKzhsQTc1WXlpZWlSRHNIbXBkc0Q4NDdpNi8rdHA2aEtCdTE5Zkp2MjB6Y1JtaEdxUmpHb3llQXEzTStCbk1MZmxzcE9aOS8xMXpGcnpVc1hoVVQ3eDdRcWxhWC9XMW1xdFRQeHRZcnFxWjFnWm9nTWFJT0RNQTluWGdaa0h5SytTNkxrdElUcFZFKytSalJMejVydmpsOVUzazBZUkVXQVFMbjhpWHRDeDF3Vlh3amFjdXFoYi81ejdrUkRxZGZmOTh4alNwTDhGdFlaeFA2cFBsWjdlSnBEbCtjejBwMHBzcDhmNzhmS2JVbDZqMSt2T3ZLOWthcWhmZURaM0Y0TWY0T3FBMlJXRHhEdmZTUVErbG5XR1U1RXQ2VldUdzYvR1lQUW1UT1BaL1hFWE1UTHVRSUF6MzlkR1VDY0VxNFpIbCtjQ1htU0hTd1N5QXRHV3o2V0xaWTV4MmZHcU5BQ0RBNTh6aXBvQ2x0Uzk2V3N2bGt3czNPTDU0S205ay8zS2YydmE2UTNLTHo4Rkdja1N3NG5QbjA3OS9oUlRMNFFOMjNMWmg=
+kind: Secret
+metadata:
+  annotations:
+    rafay.dev/secretstore: rkms-secrets
+  labels:
+    rep-organization: 7kr5p9m
+    rep-partner: rx28oml
+    rep-version: ''
+    rep-workload: 2d044w0
+  name: 2d044w0-ss2-71265667-ingress
+  namespace: fidelity
+type: kubernetes.io/tls
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    rep-container: 2d044w0-ss2
+    rep-organization: 7kr5p9m
+    rep-partner: rx28oml
+    rep-version: ''
+    rep-workload: 2d044w0
+  name: ss2
+  namespace: fidelity
+spec:
+  ports:
+  - name: port-8082-tcp
+    port: 8082
+    protocol: TCP
+    targetPort: 8082
+  selector:
+    rep-app: ss2
+  type: ClusterIP
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    rafay.dev/registry-2w0968m: system-default-registry
+  labels:
+    rep-app: ss2
+    rep-organization: 7kr5p9m
+    rep-partner: rx28oml
+    rep-workload: 2d044w0
+  name: ss2
+  namespace: fidelity
+spec:
+  minReadySeconds: 10
+  progressDeadlineSeconds: 300
+  selector:
+    matchLabels:
+      rep-app: ss2
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations: {}
+      labels:
+        rep-app: ss2
+        rep-organization: 7kr5p9m
+        rep-partner: rx28oml
+        rep-workload: 2d044w0
+    spec:
+      containers:
+      - args: []
+        command: []
+        env: []
+        envFrom: []
+        image: index.docker.io/suryakant86/fidelitytest:v1
+        imagePullPolicy: IfNotPresent
+        name: ss2
+        ports:
+        - containerPort: 8082
+          name: port-8082-tcp
+          protocol: TCP
+        resources:
+          limits:
+            cpu: 125m
+            memory: 512Mi
+          requests:
+            cpu: 118m
+            memory: 486Mi
+      dnsPolicy: ClusterFirstWithHostNet
+      restartPolicy: Always
+      tolerations: []
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/backend-protocol: HTTP
+    nginx.ingress.kubernetes.io/configuration-snippet: set $workload_name "ss3";set
+      $workloadId "2d044w0";set $orgId "7kr5p9m";set $partnerId "rx28oml";
+    rafay.dev/cname: fidelity-test-3-com.run.rafay-edge.net
+    rafay.dev/kubeVersionConstraint: '>=1.19.0'
+  name: ss2
+  namespace: fidelity
+spec:
+  rules:
+  - host: fidelity-test-3.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: ss2
+            port:
+              number: 8082
+        path: /
+        pathType: ImplementationSpecific
+  tls:
+  - hosts:
+    - fidelity-test-3.com
+    secretName: 2d044w0-ss2-71265667-ingress
+
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    nginx.ingress.kubernetes.io/backend-protocol: HTTP
+    nginx.ingress.kubernetes.io/configuration-snippet: set $workload_name "ss3";set
+      $workloadId "2d044w0";set $orgId "7kr5p9m";set $partnerId "rx28oml";
+    rafay.dev/cname: fidelity-test-3-com.run.rafay-edge.net
+    rafay.dev/kubeVersionConstraint: <1.19.0
+  name: ss2
+  namespace: fidelity
+spec:
+  rules:
+  - host: fidelity-test-3.com
+    http:
+      paths:
+      - backend:
+          serviceName: ss2
+          servicePort: 8082
+        path: /
+  tls:
+  - hosts:
+    - fidelity-test-3.com
+    secretName: 2d044w0-ss2-71265667-ingress

@@ -1,0 +1,21 @@
+# developer-sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  namespace: developer-namespace
+  name: mysql-developer
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: mysql-read-only-binding
+  namespace: developer-namespace
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: mysql-read-only
+subjects:
+- kind: ServiceAccount
+  name: mysql-developer
+  namespace: developer-namespace
+

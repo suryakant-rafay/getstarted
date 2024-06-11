@@ -1,0 +1,14 @@
+apiVersion: cost.k8smgmt.io/v3
+kind: CostProfile
+metadata:
+  name: cost-test-profile
+  project: defaultproject
+spec:
+  installationParams:
+    aws:
+      awsCredentials:
+        cloudCredentialsName: surya-factset-cloudcredentials01
+      curIntegration: {}
+      spotIntegration: {}
+  providerType: aws
+  version: v2

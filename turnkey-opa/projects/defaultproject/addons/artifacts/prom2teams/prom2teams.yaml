@@ -1,0 +1,49 @@
+# Default values for prom2teams.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image:
+  repository: idealista/prom2teams
+  tag:
+  pullPolicy: IfNotPresent
+
+resources:
+ requests:
+   cpu: 100m
+   memory: 128Mi
+ limits:
+   cpu: 200m
+   memory: 200Mi
+
+service:
+  type: ClusterIP
+  port: 8089
+  monitoring_port: 9090
+
+prom2teams:
+  host: 0.0.0.0
+  port: 8089
+  monitoring_port: 9090
+  connector: https://rafay23.webhook.office.com/webhookb2/00fc5e7c-9c4c-4f57-bf0e-0eeeca35ec1a@58509c27-163d-4f75-8dd3-6a3428523a61/IncomingWebhook/35ba3de77c8647fda66467b78bf8699f/ad9efc47-0628-4864-80aa-d97b8083b528
+  connectors: {}
+  # group_alerts_by can be one of
+  # ("name" | "description" | "instance" | "severity" | "status" | "summary" | "fingerprint" | "runbook_url")
+  group_alerts_by:
+  # loglevel can be one of (DEBUG | INFO | WARNING | ERROR | CRITICAL)
+  loglevel: INFO
+  templatepath: /opt/prom2teams/helmconfig/teams.j2
+  config: /opt/prom2teams/helmconfig/config.ini
+  extraEnv: {}
+
+# Security Context properties
+securityContext:
+  # enabled is a flag to enable Security Context
+  enabled: true
+  # runAsUser is the user ID used to run the container
+  runAsUser: 101
+  # runAsGroup is the primary group ID used to run all processes within any container of the pod
+  runAsGroup: 101
+  # fsGroup is the group ID associated with the container
+  fsGroup: 101
+  # readOnlyRootFilesystem is a flag to enable readOnlyRootFilesystem for the Hazelcast security context
+  readOnlyRootFilesystem: true

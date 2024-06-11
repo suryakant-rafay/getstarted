@@ -1,0 +1,20 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: AddonOverride
+metadata:
+  labels:
+    rafay.dev/overrideScope: clusterLabels
+    rafay.dev/overrideType: valuesFile
+  name: clusteroverrides
+  project: defaultproject
+spec:
+  placement:
+    labels:
+    - key: rafay.dev/clusterName
+      value: surya-lego-test01
+  resource:
+    selector:
+      name: nginx-lego
+    type: Addon
+  type: Helm
+  valuesPath:
+    name: file://clusteroverrides/clusteroverrides.yaml

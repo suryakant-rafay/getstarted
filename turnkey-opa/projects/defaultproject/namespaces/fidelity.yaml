@@ -1,0 +1,27 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Namespace
+metadata:
+  annotations:
+    rafay.dev/description: ""
+  name: fidelity
+  project: defaultproject
+spec:
+  limitRange:
+    container: {}
+    pod: {}
+  namespaceMeshPolicyParams: {}
+  placement:
+    labels:
+    - key: rafay.dev/clusterName
+      value: mks-test-cluster01
+    - key: rafay.dev/clusterName
+      value: mks-test-cluster02
+    - key: rafay.dev/clusterName
+      value: fidelity-cluster01
+    - key: rafay.dev/clusterName
+      value: rafay-test-cluster01
+    - key: rafay.dev/clusterName
+      value: surya-test-cluster-04
+    - key: rafay.dev/clusterName
+      value: ss45
+  resourceQuotas: {}
