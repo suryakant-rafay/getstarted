@@ -65,7 +65,7 @@ spec:
   - name: container-resource-ratios-custom   
     version: v1
   sharing:
-    enabled: false
+    enabled: true
     projects:
     - name: defaultproject
   version: v1
