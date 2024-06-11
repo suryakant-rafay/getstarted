@@ -1,0 +1,12 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: OPAConstraintTemplate
+metadata:
+  labels:
+    rafay.dev/opa: template
+  name: factset-constraint-template-ratio
+  project: surya
+spec:
+  artifact:
+    artifact: {}
+    options: {}
+    type: Yaml
