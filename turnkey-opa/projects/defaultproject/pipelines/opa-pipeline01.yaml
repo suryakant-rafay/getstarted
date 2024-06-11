@@ -19,3 +19,13 @@ spec:
       systemToGitSync: true
     name: opa-stage
     type: SystemSync
+  triggers:
+  - config:
+      repo:
+        paths:
+        - name: /turnkey-opa
+        provider: Github
+        repository: op-repo01
+        revision: master
+    name: opa-trigger01
+    type: Webhook
