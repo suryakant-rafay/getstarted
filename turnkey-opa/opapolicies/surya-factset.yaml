@@ -1,0 +1,73 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: OPAPolicy
+metadata:
+  name: bp-all
+  project: surya
+spec:
+  constraintList:
+  ########PSP-Restricted################## 
+  - name: allow-privilege-escalation-container-custom 
+    version: v1
+  - name: allowed-users-custom     
+    version: v1  
+  - name: app-armor-custom      
+    version: v1  
+  - name: flex-volumes-custom        
+    version: v1  
+  - name: forbidden-sysctls-custom    
+    version: v1  
+  - name: host-filesystem-custom    
+    version: v1  
+  - name: host-namespace-custom    
+    version: v1  
+  - name: host-network-ports-custom 
+    version: v1  
+  - name: linux-capabilities-custom   
+    version: v1  
+  - name: privileged-container-custom  
+    version: v1  
+  - name: proc-mount-custom     
+    version: v1  
+  - name: read-only-root-filesystem-custom  
+    version: v1  
+  - name: se-linux-custom      
+    version: v1  
+  - name: seccomp-custom    
+    version: v1  
+  - name: volume-types-custom
+    version: v1
+  
+  ########BP-REliability##################
+  - name: disallowed-tags-custom
+    version: v1
+  - name: replica-limits-custom
+    version: v1
+  - name: required-annotations-custom
+    version: v1
+  - name: required-labels-custom
+    version: v1
+  - name: required-probes-custom
+    version: v1
+  
+  ########BP-security##################
+  - name: allowed-repos-custom
+    version: v1
+  - name: block-nodeport-services-custom
+    version: v1
+  - name: https-only-custom
+    version: v1
+  - name: image-digests-custom
+    version: v1
+  
+  ########BP-Operational Efficiency##################
+  - name: container-limits-custom
+    version: v1
+  - name: container-resource-ratios-custom   
+    version: v1
+  sharing:
+    enabled: true
+    projects:
+    - name: defaultproject
+  version: v1
+  ### This is a comment
+  ### This is a comment
