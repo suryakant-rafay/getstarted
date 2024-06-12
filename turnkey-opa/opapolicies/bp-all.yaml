@@ -2,7 +2,7 @@ apiVersion: opa.k8smgmt.io/v3
 kind: OPAPolicy
 metadata:
   name: bp-all
-  project: defaultproject
+  project: surya
 spec:
   constraintList:
   ########PSP-Restricted################## 
