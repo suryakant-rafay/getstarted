@@ -1,0 +1,10 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: OPAPolicy
+metadata:
+  name: jana-test-4
+  project: surya
+spec:
+  constraintList:
+  - name: k8sreplicalimits-constraint
+    version: v1
+  version: v1
