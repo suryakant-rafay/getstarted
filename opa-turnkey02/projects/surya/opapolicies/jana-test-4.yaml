@@ -1,7 +1,7 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: OPAPolicy
 metadata:
-  name: jana-test-5
+  name: jana-test-6
   project: surya
 spec:
   constraintList:
